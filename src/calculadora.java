@@ -19,7 +19,8 @@ public class calculadora {
 	}
 	public void dividir(){
 	}
-	public void multiplicar(){
+	public void multiplicar(int valorum, int valordois){
+		this.valor = this.valor + (valorum * valordois);
 	}
 	
 	public int getValor(){
