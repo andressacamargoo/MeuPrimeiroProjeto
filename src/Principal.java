@@ -11,7 +11,8 @@ public class Principal {
 		Calculadora.somar(20,10);
 		
 		
-		JOptionPane.showMessageDialog(null, Calculadora.getValor());
+		JOptionPane.showMessageDialog(null, 
+				"o valor somado é: "+Calculadora.getValor());
 				
 		
 	}

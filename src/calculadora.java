@@ -7,6 +7,7 @@ public class calculadora {
 	public void somar(int valorum, int valordois){
 		
 		this.valor = this.valor + (valorum + valordois);
+		
 	}
 		
 		/*this.valorum = valorum;
